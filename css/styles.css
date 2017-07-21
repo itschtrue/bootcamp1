@@ -1,0 +1,209 @@
+body{
+	margin:0px;
+}
+
+.main-nav{
+
+	background-color:#ccc;
+	padding:10px 20px;
+	height:80px; 
+}
+.logo{
+	height:100%;
+}
+.nav-list{
+	float:right;
+	list-style:none;
+	margin:30px 0px;
+}
+.nav-elmt{
+	float:left;
+	margin-left:20px;
+}
+.nav-link{
+	text-decoration:none;
+	color: #fff; 
+}
+
+.nav-link:hover{
+	color: #000;
+}
+
+.hero-section{
+	background-image: url("../images/icecream-background.jpg");
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	
+}
+.hero-text{
+	font-size: 100px;
+	text-align: center;
+	margin:0px;
+	color:#fff;
+	padding-top: 150px;
+}
+
+.brand-background{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
+
+.info-columns{
+	padding:20px;
+}
+
+.columns{
+	float:left;
+	width: 30%;
+	text-align:center;
+	padding:1%;
+	margin-left:1%;
+}
+
+.image-icecream{
+	height: 250px;
+	width:100%;
+	
+}
+.column-button{
+	padding: 6px 12px;
+	border-radius: 5px;
+	background-color: #ffe135;
+	border:none;
+	color: brown;
+}
+
+.description-container::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.description-column{
+	width:63%;
+	padding: 15px;
+	float:left;
+}
+
+.description-column h2{
+	text-align: center;
+	font-family: 'Spectral', serif;
+
+}
+
+.clear-section{
+	content:"";
+	clear: both;
+	display:block;
+	
+}
+
+.i-scream-footer{
+	height:50px;
+	padding:15px;
+	
+}
+
+.social-media{
+	width: 15%;
+	margin: 16px auto;
+}
+
+.social-media .fa{
+	font-size: 18px;
+	color:blue;
+	margin-left: 15%;
+}
+
+.contact-container{
+	width: 70%;
+	text-align: center;
+}
+
+.contact-info{
+	display:inline-block;
+	text-align: center;
+}
+
+.copyright{
+	display: inline-block;
+	margin:0px 15px;	
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float: right;
+}
+
+.form-container{
+	width: 50%;
+	margin:0px auto;
+	padding: 25px 25px 0px 25px;
+	background: rgba( 255, 255, 255, 0.25);
+}
+
+.contact-page{
+	height: initial;
+	padding:25px;
+}
+
+.contact-header{
+	color:#fff;
+	text-align:center;
+	margin-top: 0px;
+	padding-top: 10px;	
+}
+
+.box{
+	border: 1px solid black;
+}
+.about-section{
+	margin:0px 10px;
+	padding:5px;
+}
+
+.about-section::after{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.content-container-about{
+	height:100px;
+	margin-bottom:20px;
+	
+}
+
+.fly-by{
+	position:absolute;
+	right: 15px;
+	transition: all 4s;
+	
+}
+
+.fly-by:hover{
+	left: 15px;
+	transform: rotate(7deg);
+	
+}
+.img-col{
+	height: 300px;
+	width: 30%;
+	margin-left:15;
+	text-align:center;
+}
+.img-adj{
+	height:100%;
+}
+
+.content-col{
+	height: 300px;
+	width: 65%;
+	padding: 0px 10px;
+	text-align: justify;
+}
